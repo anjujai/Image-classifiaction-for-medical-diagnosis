@@ -1,0 +1,9 @@
+Data Loading and Preprocessing: Images are loaded from directories, resized to a consistent shape, normalized, and augmented for training.
+
+Model Building: The CNN architecture is defined with a focus on feature extraction and classification.
+
+Training: The model is trained on the preprocessed training data, validated against the validation set, and monitored using callbacks.
+
+Evaluation: Performance metrics on the validation dataset are analyzed to assess generalization ability.
+
+Prediction: New medical images can be classified by the trained model, enabling automated diagnosis.
